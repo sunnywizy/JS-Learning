@@ -24,3 +24,12 @@ const priceOfData = 1500;
 console.log(priceOfData);
 
 // let is used when you expect the value to change.
+
+// Start with one bundle
+let bundlesBought = 1;
+
+// The customer buys more, so give the variable a new value
+bundlesBought = 3;
+
+// Show the current value
+console.log(bundlesBought);
