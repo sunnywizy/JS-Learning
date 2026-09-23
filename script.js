@@ -98,3 +98,18 @@ if (password === "hello143") {
 } else {
   console.log("Wrong password.");
 }
+
+let age = 25;
+let hasTicket = true;
+
+if (age >= 18 && hasTicket === true) {
+  console.log("You may enter.");
+}
+
+let day = "Saturday";
+
+if (day === "Saturday" || day === "Sunday") {
+  console.log("It is the weekend.");
+}
+
+// switch statement: A switch is useful when comparing one value with several choices:
