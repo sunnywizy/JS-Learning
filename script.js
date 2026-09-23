@@ -138,3 +138,20 @@ let message = adultCheckAge >= 18 ? "Adult" : "Not an adult";
 console.log(message);
 
 // A conditional statement lets JavaScript choose what to do based on whether something is true or false.
+
+function assignGrade(score) {
+    if (score >= 70) {
+    console.log('Grade: A');
+    } else if (score >= 60) {
+    console.log('Grade: B');
+    } else if (score >= 50) {
+    console.log('Grade: C');
+    } else {
+    console.log('Grade: F');
+    }
+}
+
+assignGrade(72);
+assignGrade(65);
+assignGrade(50);
+assignGrade(40);
