@@ -33,3 +33,13 @@ bundlesBought = 3;
 
 // Show the current value
 console.log(bundlesBought);
+
+const coursePrice = 50000;
+let students = 1;
+
+students = 3;
+console.log(typeof students);
+
+const total = coursePrice * students;
+
+console.log(`With ${students} students, the total is ${total}`);
