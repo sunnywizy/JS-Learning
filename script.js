@@ -207,3 +207,14 @@ const unpaid = classStudents.filter((student) => !student.paid);
 
 console.log(passing.length);
 console.log(unpaid);
+
+const studentResults = [
+  { name: 'Amaka', score: 72 },
+  { name: 'Tunde', score: 45 },
+  { name: 'Zainab', score: 88 },
+  { name: 'Chioma', score: 60 }
+];
+
+const passedStudents = studentResults.filter(studentResults => studentResults.score >= 50);
+const passedNames = passedStudents.map(studentResults => studentResults.name);
+console.log('Passing Students:', passedNames);
