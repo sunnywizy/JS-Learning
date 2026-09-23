@@ -113,3 +113,28 @@ if (day === "Saturday" || day === "Sunday") {
 }
 
 // switch statement: A switch is useful when comparing one value with several choices:
+
+let switchDay = "Sunday";
+
+switch (switchDay) {
+  case "Monday":
+    console.log("Start of the week.");
+    break;
+  case "Friday":
+    console.log("Almost the weekend.");
+    break;
+  case "Saturday":
+  case "Sunday":
+    console.log("Weekend!");
+    break;
+  default:
+    console.log("Another day.");
+}
+
+let adultCheckAge = 20;
+
+let message = adultCheckAge >= 18 ? "Adult" : "Not an adult";
+
+console.log(message);
+
+// A conditional statement lets JavaScript choose what to do based on whether something is true or false.
