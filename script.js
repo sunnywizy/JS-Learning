@@ -75,3 +75,26 @@ console.log(applicantScore >= 50 && feePaid);
 console.log(true || false);  // left side true
 console.log(false || true);  // right side true
 console.log(false || false); // neither is true
+
+// An if statement runs a block of code only when its condition is true. else if and else give your code other paths to take when it is false.
+
+let gradeScore = 75;
+
+if (gradeScore >= 80) {
+  console.log("Excellent");
+} else if (gradeScore >= 60) {
+  console.log("Good");
+} else if (gradeScore >= 40) {
+  console.log("Pass");
+} else {
+  console.log("Try again");
+}
+
+
+let password = "hello123";
+
+if (password === "hello143") {
+  console.log("Correct password.");
+} else {
+  console.log("Wrong password.");
+}
