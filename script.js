@@ -218,3 +218,6 @@ const studentResults = [
 const passedStudents = studentResults.filter(studentResults => studentResults.score >= 50);
 const passedNames = passedStudents.map(studentResults => studentResults.name);
 console.log('Passing Students:', passedNames);
+
+let adultAge = 20; if (adultAge >= 18) { console.log("Adult"); }
+for(let i = 0; i < 3; i++){ console.log(i); }
