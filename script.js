@@ -43,3 +43,35 @@ console.log(typeof students);
 const total = coursePrice * students;
 
 console.log(`With ${students} students, the total is ${total}`);
+
+// A condition is a question your code asks that can only be answered with true or false.
+
+// You met the answer type yesterday: a boolean. A condition is simply any expression that produces a boolean.
+
+// Store the student's score
+const score = 72;
+
+// Ask five questions about the score
+console.log(score > 50);   // is it greater than 50?
+console.log(score < 50);   // is it less than 50?
+console.log(score >= 72);  // is it 72 or more?
+console.log(score === 72); // is it exactly 72?
+console.log(score !== 72); // is it anything other than 72?
+
+// && is true only when BOTH sides are true
+console.log(true && true);   // both true
+console.log(true && false);  // right side false
+console.log(false && true);  // left side false
+console.log(false && false); // both false
+
+// The two facts we know about this applicant
+const applicantScore = 78;
+const feePaid = false;
+
+// Admitted only if the score passes AND the fee is paid
+console.log(applicantScore >= 50 && feePaid);
+
+// || is true when AT LEAST ONE side is true
+console.log(true || false);  // left side true
+console.log(false || true);  // right side true
+console.log(false || false); // neither is true
