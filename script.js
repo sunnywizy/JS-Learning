@@ -154,4 +154,56 @@ function assignGrade(score) {
 assignGrade(72);
 assignGrade(65);
 assignGrade(50);
-assignGrade(40);
+
+// An array is an ordered list of values stored under one name. Each value has a position, called its index, and the positions start at 0, not 1.
+
+// A list of four courses, in order
+const courses = ['HTML', 'CSS', 'Tailwind', 'JavaScript'];
+
+// How many items are in the list?
+console.log(courses.length);
+
+// The first item is at position 0
+console.log(courses[0]);
+
+// The last item: length - 1, the older way
+console.log(courses[courses.length - 1]);
+
+// The last item: at(-1), the clearer way
+console.log(courses.at(-1));
+
+// A cart with one item
+const cart = ['rice'];
+
+// Add to the end, then to the front
+cart.push('beans');
+cart.unshift('oil');
+console.log(cart);
+
+// Remove from the end, keeping hold of what was removed
+const removed = cart.pop();
+console.log(removed);
+console.log(cart);
+
+let fruits = ["Apple", "Mango", "Banana"];
+
+fruits[1] = "Orange";
+
+console.log(fruits);
+
+// The class
+const classStudents = [
+  { name: 'Chidinma', score: 88, paid: true },
+  { name: 'Musa', score: 54, paid: false },
+  { name: 'Tunde', score: 71, paid: true },
+  { name: 'Amaka', score: 39, paid: true }
+];
+
+// Keep only the students who scored 50 or more
+const passing = classStudents.filter((student) => student.score >= 50);
+
+// Keep only the students who have not paid
+const unpaid = classStudents.filter((student) => !student.paid);
+
+console.log(passing.length);
+console.log(unpaid);
